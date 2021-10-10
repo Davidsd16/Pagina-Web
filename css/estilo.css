@@ -6,3 +6,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.contenedor{
+    width: 60%;
+    max-width: 1200px;
+    /* overflow: hidden; */
+    margin: auto;
+}
