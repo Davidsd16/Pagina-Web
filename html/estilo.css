@@ -22,8 +22,7 @@ body{
 
 header{
     height: 100vh;
-    /* background-image: linear-gradient(to top, rgba(24, 65, 62, 0.4) 0%, #fed6e3 100%), url(../html/img/portada3.jpg); */
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%), url(../html/img/arbol.jpg);
+    background-image: linear-gradient(to right, rgba(250, 112, 153, 0.623) 0%, rgba(254, 225, 64, 0.801) 100%), url(../html/img/mundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -57,7 +56,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
-    width: 30vw;
+    width: 20vw;
     height: 100%;
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -173,8 +172,7 @@ header{
 
 .agregar-imagen{
     object-fit: cover;
-    width: 30%;
-    height: 30%;
+    width: 60%;
     border-radius: 10px;
     transform: scale(0);
     transition: transform .3s .2s;
