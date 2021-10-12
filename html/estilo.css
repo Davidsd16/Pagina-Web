@@ -57,7 +57,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
-    width: 15vw;
+    width: 30vw;
     height: 100%;
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -163,7 +163,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform:translate(0);
+    transform:translate(100%);
     transition: transform .2s ease-in-out;
 }
 
@@ -173,10 +173,10 @@ header{
 
 .agregar-imagen{
     object-fit: cover;
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    height: 30%;
     border-radius: 10px;
-    transform: scale(1);
+    transform: scale(0);
     transition: transform .3s .2s;
 }
 
@@ -306,4 +306,75 @@ footer{
     .service{
         margin-bottom: 30px;
     }
+    .agregar-imagen{
+        width: 80%;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+
+    .cont-expert{
+        width: 80%;
+    }
+
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .social-media{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align:center;
+        width: 80%;
+        margin-bottom: 40%;
+
+    }
+}
+
+@media screen and (max-width: 500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .hamburgesa{
+        top: 20px;
+        right: 20px;
+    }
+
+  /*   .titulo{
+        font-size: 30%;
+    } */
+
+    .subtitulo{
+        font-size: 30%;
+    }
+
+    .agregar-imagen{
+        width: 95%;
+    }
+
+    .img-galeria{
+        width: 95%;
+    }
+
+    .social-media{
+        width: 100%;
+    }
+
+    .contact-us{
+        width: 90%;
+    }
+
 }
